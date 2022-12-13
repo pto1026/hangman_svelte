@@ -3,6 +3,10 @@ import {error, json} from '@sveltejs/kit';
 import useSpaceRegex from "$lib/useSpaceRegex.js";
 import useCharacterRegex from "$lib/useCharacterRegex.js";
 
+// /** @type {import('./$types').PageServerLoad} */
+// export async function load({locals}) {
+// }
+
 /** @type {import('./$types').Actions} */
 export const actions = {
     default: async ({request}) => {
